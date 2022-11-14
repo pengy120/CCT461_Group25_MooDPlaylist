@@ -313,22 +313,22 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (emotions.equals("happiness")) {
-                    resultText.setText("Happy");
+                    resultText.setText("Happy\nSelect and play the song!");
                     songText1.setText(happySongNameArray[0]);
                     songText2.setText(happySongNameArray[1]);
                     songText3.setText(happySongNameArray[2]);
                 } else if (emotions.equals("sadness")) {
-                    resultText.setText("Sad");
+                    resultText.setText("Sad\nSelect and play the song!");
                     songText1.setText(sadSongNameArray[0]);
                     songText2.setText(sadSongNameArray[1]);
                     songText3.setText(sadSongNameArray[2]);
                 } else if (emotions.equals("anger")) {
-                    resultText.setText("Angry");
+                    resultText.setText("Angry\nSelect and play the song!");
                     songText1.setText(angrySongNameArray[0]);
                     songText2.setText(angrySongNameArray[1]);
                     songText3.setText(angrySongNameArray[2]);
                 } else {
-                    resultText.setText(emotions);
+                    resultText.setText("Mixed\nSelect and play the song!");
                     songText1.setText(mixedSongNameArray[0]);
                     songText2.setText(mixedSongNameArray[1]);
                     songText3.setText(mixedSongNameArray[2]);

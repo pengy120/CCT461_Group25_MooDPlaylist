@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BABABA"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/appTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
+        android:background="#7948BE"
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/app_title"
@@ -26,7 +27,7 @@
         android:id="@+id/musicList"
         android:layout_width="300sp"
         android:layout_height="250sp"
-        android:background="#C3C3C3"
+        android:background="#FEFEFE"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,26 +38,32 @@
         <TextView
             android:id="@+id/songText1"
             android:layout_width="match_parent"
-            android:layout_height="83.3dp"
+            android:layout_height="71.3dp"
+            android:layout_margin="6dp"
             android:gravity="center_vertical"
             android:onClick="textSelect"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="#6200ED" />
 
         <TextView
             android:id="@+id/songText2"
             android:layout_width="match_parent"
-            android:layout_height="83.3dp"
+            android:layout_height="71.3dp"
+            android:layout_margin="6dp"
             android:gravity="center_vertical"
             android:onClick="textSelect"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="#6200ED" />
 
         <TextView
             android:id="@+id/songText3"
             android:layout_width="match_parent"
-            android:layout_height="83.3dp"
+            android:layout_height="71.3dp"
+            android:layout_margin="6dp"
             android:gravity="center_vertical"
             android:onClick="textSelect"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="#6200ED" />
     </LinearLayout>
 
     <TextView
@@ -66,7 +73,7 @@
         android:gravity="center"
         android:padding="20dp"
         android:text=""
-        android:textColor="#3F51B5"
+        android:textColor="#6200ED"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
